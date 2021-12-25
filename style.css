@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+ul, li, a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#recipe-container ul {
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap; 
+    height: 50vh;     
+}
+
+.recipe a {
+    font-size: 1.5em;
+    margin: 10px;
+    gap: 20px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+.recipe a:hover {
+    background-color: black;
+    transition: all 0.3s ease 0s;
+}
+
+/*
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+*/
+
+
